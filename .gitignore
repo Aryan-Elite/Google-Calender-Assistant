@@ -50,3 +50,5 @@ next-env.d.ts
 frontend/.next/
 
 push_images.sh
+
+.env.docker
