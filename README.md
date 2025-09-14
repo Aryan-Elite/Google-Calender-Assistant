@@ -1,6 +1,17 @@
-# Calvin: A Google Calendar Assistant
+Google Calendar Assistant 🗓️
 
-Google Calendar LLM Assistant built with Next.js, FastAPI, and MongoDB. Assistant logic built using [Langchain](https://www.langchain.com/) and the OpenAI API. 
+An AI-powered appointment booking assistant that integrates Google Calendar with LLM (Large Language Model) reasoning.
+This project was built as part of an AI Agent Developer Internship assignment at LaikaTest.
+
+The assistant uses LangChain, OpenAI API, and tool calling to handle end-to-end appointment booking:
+
+Conversational chatbot interface (feels like a real support agent).
+
+Collects user details (name, email, doctor, date, and time).
+
+Confirms details before booking.
+
+Creates appointments in Google Calendar automatically.
 
 ![Calvin Homepage](/screenshots/calvin.png)
 
